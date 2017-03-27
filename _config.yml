@@ -1,0 +1,2 @@
+baseurl: /fruits
+exclude: ["README.md"]
