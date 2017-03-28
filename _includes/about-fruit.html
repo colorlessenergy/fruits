@@ -1,0 +1,7 @@
+<div>
+  {% for fruits in site.data.fruits %}
+  <img src="{{fruits.link}}" alt="">
+  <h2>{{fruits.title}}</h2>
+  <p>{{fruits.content}}</p>
+  {% endfor %}
+</div>
