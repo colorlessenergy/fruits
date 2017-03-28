@@ -1,0 +1,9 @@
+<section>
+  {% for phase in site.data.phases %}
+  <div>
+    <p>{{phase.title}}</p>
+    <img src="{{phase.link}}" alt="s">
+    <p>{{phase.content}}</p>
+  </div>
+  {% endfor %}
+</section>

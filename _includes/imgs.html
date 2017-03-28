@@ -1,0 +1,6 @@
+<div>
+  {% for imgD in site.data.img-details %}
+  <img src="{{site.baseurl}}{{imgD.link}}" alt="">
+  <p>{{imgD.title}}</p>
+  {% endfor %}
+</div>
