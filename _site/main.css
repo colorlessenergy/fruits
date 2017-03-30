@@ -1,4 +1,5 @@
 html, body {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -19,11 +20,8 @@ nav ul {
 }
 
 nav ul li a {
-  margin: 0 10px;
-}
-
-nav ul li a {
   color: #2f6184;
+  margin: 0 10px;
   text-decoration: none;
 }
 
@@ -34,17 +32,53 @@ nav ul li a {
 }
 
 .display {
-  background-color: red;
+  background-color: #012359;
   display: none;
   height: 100%;
+  font-size: 40px;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#close {
+  align-self: flex-end;
+}
+
+#close p {
+  margin: 0;
+}
+
+#small {
+  margin: 0;
+  margin-left: 97%;
+}
+
+.input {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.input p {
+  margin: 0;
+}
+
+.input input {
+  margin-bottom: 25px;
 }
 
 .small {
   display: none;
+}
+
+.title {
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
