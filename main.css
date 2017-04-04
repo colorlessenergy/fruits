@@ -58,6 +58,43 @@ nav ul li a {
   margin-left: 97%;
 }
 
+.header-play {
+  align-items: center;
+  border: 1px solid;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+}
+
+.header-title {
+  align-items: center;
+  color: #5583d1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title div {
+  text-align: center;
+}
+
+.header-title .header-p {
+  color: #305f81;
+  margin: 0;
+}
+
+.header-title div h1 {
+  color: #20375e;
+  font-size: 50px;
+  margin: 0;
+}
+
+.margin-p {
+  color: #305f81;
+  margin-bottom: 1px;
+}
+
 .input {
   align-items: center;
   display: flex;
