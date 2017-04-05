@@ -1,8 +1,11 @@
-- title: fruit
-  link: http://placehold.it/180x184
+- title: Orange
+  link: img/orange.jpg
+  info: 'It is the color orange!'
 
-- title: fruitd
-  link: http://placehold.it/180x184
+- title: Banana
+  link: img/banana-bg.jpg
+  info: 'It is the color yellow!'
 
-- title: fruits
-  link: http://placehold.it/180x184
+- title: Kiwi
+  link: img/kiwi.png
+  info: 'It is the color green!'
