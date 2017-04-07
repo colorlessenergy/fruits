@@ -1,15 +1,23 @@
-- title: phase 1
-  link: http://placehold.it/180x184
-  content: 'it is a pretty good process'
-
-- title: phase 2
-  link: http://placehold.it/180x184
-  content: 'it is a pretty good process'
-
-- title: phase 3
-  link: http://placehold.it/180x184
-  content: 'it is a pretty good process'
-
-- title: phase 4
-  link: http://placehold.it/180x184
-  content: 'it is a pretty good process'
+- title: "THE PROCESS"
+  row1:
+    - title: "PHASE 1"
+      items:
+      - title: 'seed'
+        content: "seeds go in the ground!"
+        href: "img/seeds.jpg"
+    - title: "PHASE 3"
+      items:
+      - title: 'wait'
+        content: "just wait till they grow!"
+        href: "img/wait.jpg"
+- row2:
+    - title: "PHASE 2"
+      items:
+      - title: 'water'
+        content: "The seeds!"
+        href: "img/drop.jpg"
+    - title: "PHASE 4"
+      items:
+        - title: 'Eat'
+          content: "YUM!"
+          href: "img/eat.jpg"

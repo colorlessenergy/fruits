@@ -1,9 +1,35 @@
-<section>
-  {% for phase in site.data.phases %}
-  <div>
-    <p>{{phase.title}}</p>
-    <img src="{{phase.link}}" alt="s">
-    <p>{{phase.content}}</p>
-  </div>
+<section class="process-container">
+  <h2>THE PROCESS</h2>
+  <section class="process">
+  {% for entry in site.data.phases %}
+  {% if entry.row1 %}
+  <section>
+  {% for subcategory in entry.row1 %}
+  <section class="process-details">
+    <p>{{ subcategory.title }}</p>
+    {% for item in subcategory.items %}
+    <img src="{{item.href}}" alt="{{item.content}}" height="184px" width="229px">
+    <h3>{{item.title}}</h3>
+    <p>{{ item.content }}</p>
+    {% endfor %}
+  </section>
   {% endfor %}
+  </section>
+  {% endif %}
+    {% if entry.row2 %}
+    <section>
+    {% for subcategory in entry.row2 %}
+    <section class="process-details">
+      <p>{{ subcategory.title }}</p>
+      {% for item in subcategory.items %}
+      <img src="{{item.href}}" alt="{{item.content}}" height="184px" width="229px">
+      <h3>{{item.title}}</h3>
+      <p>{{ item.content }}</p>
+      {% endfor %}
+    </section>
+    {% endfor %}
+  </section>
+    {% endif %}
+  {% endfor %}
+</section>
 </section>
