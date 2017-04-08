@@ -99,7 +99,7 @@ section p {
   text-align: center;
 }
 
-.bg-info h3, .process h3 {
+.bg-info h3, .process h3, .rev h3 {
   color: #5583d1;
 }
 
@@ -237,6 +237,29 @@ section p {
 
 .process-details h3 {
   margin-bottom: 0;
+}
+
+.rev {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.rev section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.rev h3 {
+  font-size: 30px;
+}
+
+.rev p {
+  margin: 0 10px;
 }
 
 .small {
