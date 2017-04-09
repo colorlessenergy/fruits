@@ -1,12 +1,12 @@
-- title: banana
-  content: 'a tasty fruit'
-  link: http://placehold.it/180x184
+- title: Orange
+  content: 'Oranges are circular orange-colored fruit that grow on a tree'
+  link: img/about-orange.jpg
 
-- title: banana
-  content: 'a tasty fruit'
-  link: http://placehold.it/180x184
+- title: Banana
+  content: 'Bananas is both a fruit and a herb. They are green when unripe and turn yellow as they ripen. They have a nice, relaxing flavor.'
+  link: img/about-banana.png
 
 
-- title: banana
-  content: 'a tasty fruit'
-  link: http://placehold.it/180x184
+- title: Mango
+  content: 'Ripe mangoes are very sweet in taste but they are bitterly sour before they ripen'
+  link: img/about-mango.jpg

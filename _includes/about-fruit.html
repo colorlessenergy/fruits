@@ -1,7 +1,9 @@
-<div>
+<div class="about-fruit">
   {% for fruits in site.data.fruits %}
-  <img src="{{fruits.link}}" alt="">
-  <h2>{{fruits.title}}</h2>
-  <p>{{fruits.content}}</p>
+  <div>
+    <img src="{{fruits.link}}" width="180px" height="184px" alt="{{fruit.title}}">
+    <h2>{{fruits.title}}</h2>
+    <p>{{fruits.content}}</p>
+  </div>
   {% endfor %}
 </div>
