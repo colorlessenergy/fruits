@@ -34,10 +34,11 @@ section p {
 .about-fruit {
   display: flex;
   justify-content: space-around;
+  flex-flow: wrap;
 }
 
 .about-fruit div {
-  width: 30%;
+  width: 180px;
 }
 
 .about-fruit h2 {
