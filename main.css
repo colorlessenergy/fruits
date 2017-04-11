@@ -89,7 +89,7 @@ section p {
   margin-top: 20px;
 }
 
-.contact .contact-submit {
+.contact-submit {
   align-items: center;
   background-color: #fff;
   display: flex;
@@ -97,19 +97,12 @@ section p {
   justify-content: space-between;
 }
 
-.contact .contact-submit input {
+.contact-submit input {
   border: none;
   height: 50px;
 }
 
-.contact .contact-submit p {
-  background-color: #5583d1;
-  border-radius: 45px;
-  font-size: 30px;
-  height: 50px;
-  margin: 0;
-  width: 50px;
-}
+
 
 .contact h3 {
   font-size: 50px;
@@ -123,6 +116,15 @@ section p {
   font-style: italic;
   margin-bottom: 30px;
   margin-top: 5px;
+}
+
+.contact-submit p {
+  background-color: #5583d1;
+  border-radius: 45px;
+  font-size: 33px;
+  height: 50px;
+  margin: 0;
+  width: 50px;
 }
 
 footer .footer-p {
@@ -283,8 +285,13 @@ footer .footer-p {
   margin: 0;
 }
 
-.input input {
-  margin-bottom: 25px;
+.small-input {
+  margin-bottom: 0;
+}
+
+.small-submit p {
+  height: 52px;
+  font-size: 38px;
 }
 
 .img-title {
@@ -407,6 +414,7 @@ footer .footer-p {
   .bottom-bg {
     flex-wrap: wrap;
   }
+
   .small {
     display: flex;
   }
