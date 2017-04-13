@@ -199,6 +199,7 @@ footer .footer-p {
   text-align: center;
 }
 
+
 .bg-info h3, .process h3, .rev h3 {
   color: #5583d1;
 }
@@ -272,6 +273,10 @@ footer .footer-p {
   font-size: 24px;
   justify-content: center;
   height: 100px;
+}
+
+.info h2 {
+  text-align: center;
 }
 
 .input {
